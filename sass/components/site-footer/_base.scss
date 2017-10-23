@@ -1,0 +1,71 @@
+.before-footer {
+    text-align: center;
+    padding-top: 50px;
+	border-top: 1px solid #eee;
+    
+    a {
+        text-decoration: none;
+        color: #111;
+        
+        &:hover {
+            color: $accentColor;
+        }
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin,
+    .social-media {
+        display: inline-block;
+        text-align: left;
+        padding-bottom: 30px;
+        margin: 0 30px 30px 30px;
+        &:before {
+            display: block;
+            position: relative;
+            height: 0;
+            text-align: center;
+            top: -20px;
+           
+            font-family: 'FontAwesome';
+        }
+    }
+    
+    .facebook {
+        &:before {
+            content: "\f09a";
+        }
+    }
+    
+    .twitter {
+        &:before {
+            content: "\f099";
+        }
+    }
+    
+    .instagram {
+        &:before {
+            content: "\f16d";
+        }
+    }
+    
+    .linkedin {
+        &:before {
+            content: "\f0e1";
+        }
+    }
+}
+
+.site-footer {
+	background-color: transparent;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1;
+	padding: 1rem 0;
+	text-align: center;
+}
+
+.site-footer p {
+	margin-bottom: 0;
+}

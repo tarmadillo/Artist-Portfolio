@@ -1,0 +1,36 @@
+/* ## Entries
+--------------------------------------------- */
+
+.entry {
+	background-color: transparent;
+	margin-bottom: 40px;
+	padding: 70px 20px;
+}
+
+.entry-content ol,
+.entry-content ul {
+	margin-bottom: 28px;
+	margin-left: 40px;
+}
+
+.entry-content ol > li {
+	list-style-type: decimal;
+}
+
+.entry-content ul > li {
+	list-style-type: disc;
+}
+
+.entry-content ol ol,
+.entry-content ul ul {
+	margin-bottom: 0;
+}
+
+.entry-content code {
+	background-color: #111;
+	color: #eee;
+    display: inline-block;
+    padding: 10px 20px;
+    padding: 1rem 4rem 4rem;
+    border-radius: 10px;
+}

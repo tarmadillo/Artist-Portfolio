@@ -1,0 +1,33 @@
+/* ## Site Containers
+--------------------------------------------- */
+
+.site-inner,
+.wrap {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+
+.site-inner {
+	clear: both;
+	padding: 40px 0;
+	word-wrap: break-word;
+}
+
+.landing-page .site-inner {
+	max-width: 800px;
+}
+
+.site-header {
+    .wrap {
+        max-width: 1340px;
+    }
+}
+
+.front-page {
+    .site-container {
+        .site-inner {
+            margin-top: 0;
+            max-width: 100%;
+        }
+    }
+}

@@ -1,4 +1,4 @@
-# Incomplete Theme
+# Artist-Portfolio
 # Based on the Genesis Sample Theme
 
 Github project link: https://github.com/copyblogger/genesis-sample/
@@ -15,4 +15,4 @@ Github project link: https://github.com/copyblogger/genesis-sample/
 
 
 # genesis-developers
-# Artist-Portfolio
+

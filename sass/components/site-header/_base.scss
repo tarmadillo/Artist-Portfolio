@@ -1,0 +1,48 @@
+.site-header {
+	background-color: transparent;
+    position: relative;
+    z-index: 999;
+    color: #fff;
+}
+
+.site-header > .wrap {
+	padding: 10px 0;
+    border-bottom: 1px solid #efefef; 
+}
+
+/* ## Hero Section
+--------------------------------------------- */
+.hero-section {
+    color: #fff;
+    padding: 9% 0% 6% 0;
+    background-position: center;
+    background-size: cover;
+    transition: all .1s ease;
+    position: relative;
+    text-align: center;
+    background-image: url("assets/images/hero.jpg");
+    max-height: 500px;
+    margin-top: -109px;
+}
+
+.overlay {
+    position: relative;
+    * {
+        position: relative;
+        z-index: 1;
+    }
+    
+    &:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #111;
+        opacity: .4;
+    }
+}

@@ -1,0 +1,86 @@
+@media only screen and (max-width: 860px) {
+
+	body,
+	body > div {
+		font-size: 16px;
+		font-size: 1.6rem;
+	}
+
+    blockquote {
+        margin: 40px 15px;
+    }
+	.site-inner {
+		padding: 5% 5% 0;
+	}
+
+	.wrap {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.after-entry,
+	.archive-description,
+	.author-box,
+	.comment-respond,
+	.entry,
+	.entry-comments,
+	.entry-pings,
+	.sidebar .widget {
+		padding: 5px;
+		margin-bottom: 5%;
+	}
+
+	.sidebar {
+		margin-bottom: 5%;
+	}
+
+	.pagination {
+		margin: 5% auto;
+	}
+
+	.archive-pagination li a {
+		margin-bottom: 4px;
+	}
+
+	.five-sixths,
+	.four-sixths,
+	.one-fourth,
+	.one-half,
+	.one-sixth,
+	.one-third,
+	.three-fourths,
+	.three-sixths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+    
+    .front-page .grid .entry-page-image:nth-child(1) { grid-area: 8 / 1 / 22 / 19;}
+    .front-page .grid .entry-page-image:nth-child(2) { grid-area: 1 / 1 / 8 / 10;}
+    .front-page .grid .entry-page-image:nth-child(3) { grid-area: 22 / 1 / 27 / 10;}
+    .front-page .grid .entry-page-image:nth-child(4) { grid-area: 27 / 1 / 31 / 10;}
+    .front-page .grid .entry-page-image:nth-child(5) { grid-area: 27 / 10 / 31 / 19;}
+    .front-page .grid .entry-page-image:nth-child(6) { grid-area: 1 / 10 / 8 / 19;}
+    .front-page .grid .entry-page-image:nth-child(7) { grid-area: 22 / 10 / 27 / 19;}
+    .front-page .grid .entry-page-image:nth-child(8) { grid-area: 1 / 19 / 8 / 30;}
+    .front-page .grid .entry-page-image:nth-child(9) { grid-area: 8 / 19 / 15 / 30;}
+    .front-page .grid .entry-page-image:nth-child(10) { grid-area: 15 / 19 / 22 / 30;}
+    .front-page .grid .entry-page-image:nth-child(11) { grid-area: 22 / 19 / 27 / 30;} 
+    .front-page .grid .entry-page-image:nth-child(12) { grid-area: 27 / 19 / 31 / 30;} 
+    
+    .gallery-columns-3 .gallery-item, 
+    .gallery-columns-4 .gallery-item,
+    .gallery-columns-5 .gallery-item,
+    .gallery-columns-6 .gallery-item, 
+    .gallery-columns-7 .gallery-item, 
+    .gallery-columns-8 .gallery-item, 
+    .gallery-columns-9 .gallery-item {
+        width: 50%;
+        
+        &:nth-child(2n+1) {
+            clear: left;
+        }
+    }
+}

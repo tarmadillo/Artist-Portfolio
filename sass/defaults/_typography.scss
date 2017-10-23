@@ -1,0 +1,112 @@
+/* ## Typographical Elements
+--------------------------------------------- */
+
+html {
+	font-size: 62.5%; /* 10px browser default */
+}
+
+/* Chrome fix */
+body > div {
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+body {
+	background-color: #fff;
+	color: #111;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-size: 1.8rem;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 300;
+	line-height: 1.625;
+	margin: 0;
+    background-image: url("../portfolio2/images/bg.png");
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+a,
+button,
+input:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea:focus,
+.button,
+.gallery img {
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition:    all 0.1s ease-in-out;
+	-ms-transition:     all 0.1s ease-in-out;
+	-o-transition:      all 0.1s ease-in-out;
+	transition:         all 0.1s ease-in-out;
+}
+
+a {
+	color: $accentColor;
+	text-decoration: underline;
+}
+
+a:focus,
+a:hover {
+	color: #111;
+	text-decoration: none;
+}
+
+p {
+	margin: 0 0 28px;
+	padding: 0;
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+hr {
+	border: 0;
+	border-collapse: collapse;
+	border-top: 1px solid #eee;
+	clear: both;
+	margin: 1em 0;
+}
+
+b,
+strong {
+	font-weight: 500;
+}
+
+blockquote,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+mark {
+	background: #ddd;
+	color: #000;
+}
+
+blockquote {
+	margin: 40px;
+}
+
+blockquote::before {
+	content: "\201C";
+	display: block;
+	font-size: 70px;
+	font-size: 7rem;
+	height: 0;
+	left: -15px;
+	position: relative;
+	top: -55px;
+}
+

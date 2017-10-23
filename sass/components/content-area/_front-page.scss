@@ -1,0 +1,91 @@
+/* ## Front Page
+--------------------------------------------- */
+.front-page {
+    .site-header,
+    .site-title a,
+    .site-title a:focus,
+    .site-title a:hover,
+    .genesis-nav-menu a {
+        color: #111;
+    }
+}
+
+.front-page-2,
+.front-page-3 {
+    outline: none;
+    position: relative;
+    
+    .widget-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+        
+        &:after {
+            display: block;
+            content: '';
+            height: 9px;
+            width: 70px;
+            background-color: $accentColor;
+            top: 35px;
+            left: 50%;
+            margin-left: -35px;
+            position: absolute;
+        }
+    }
+    .widget-wrap {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+}
+
+.front-page-2 {
+    .wrap {
+        max-width: 1000px;
+        border-top: 1px solid #efefef; 
+        border-bottom: 1px solid #efefef; 
+    }
+}
+
+.front-page-2 {
+    margin-top: 60px;
+    text-align: justify;
+    @include animate( fadein, 0.0s, 1.5s, 1, forwards );
+}
+
+.front-page-3{
+    @include animate( fadein, 0.0s, 1.5s, 1, forwards );
+}
+
+.front-page {
+    .featured-content {
+        .widget-wrap {
+            display: flex;
+            flex-flow: row wrap;
+            max-height: none;
+            align-content: space-between;
+            padding-top: 0;
+        }
+        .post {
+            flex: 1;
+            margin: 0 .75%;
+        }
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .front-page {
+        .featured-content {
+            .widget-wrap {
+                display: flex;
+                flex-flow: row wrap;
+                max-height: none;
+                align-content: space-between;
+                padding-top: 0;
+            }
+            .post {
+                flex: 0 0 100%;
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
